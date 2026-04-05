@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #1a1a1a;
+  border: 2px solid gold;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid gold;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: gold;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.bio {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin: 20px 0;* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #1a1a1a;
+  border: 2px solid gold;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid gold;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: gold;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.bio {
+  
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin: 20px 0;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skill-tags span {
+  background-color: gold;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skill-tags span {
+  background-color: gold;
+  color: black;
+  padding: 5px 12px;
+  
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact {
+  margin: 20px 0;
+}
+
+.contact input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gold;
+  background-color: #0a0a0a;
+  color: white;
+  margin: 10px 0;
+}
+
+.contact button {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#response {
+  color: gold;
+  margin-top: 10px;
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid gold;
+  color: gold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
